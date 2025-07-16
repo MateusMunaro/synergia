@@ -1,0 +1,73 @@
+# Arquivos de compilação temporários
+*.o
+*.obj
+*.d
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CMake cache e arquivos temporários
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Diretórios de build (mantém executáveis em outros locais)
+build/
+cmake-build-*/
+
+# CLion
+.idea/
+*.swp
+*.swo
+*~
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows Zone Identifier files
+*:Zone.Identifier
+*.Zone.Identifier
+*_ZOne.Identifier
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*~
+
+# Core dumps
+core
+*.core
+
+# Logs
+*.log
+
+# Editor backups
+.*.swp
+.*.swo
+
+# Arquivos de configuração local
+config.local
+settings.local
