@@ -174,7 +174,7 @@ int ws_connect(WebSocketClient* client) {
         return -1;
     }
 
-    // Configurar conexão
+    // Configurar conexã
     struct lws_client_connect_info connect_info;
     memset(&connect_info, 0, sizeof(connect_info));
 
