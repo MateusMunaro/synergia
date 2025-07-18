@@ -43,6 +43,7 @@ cmake-build-*/
 *:Zone.Identifier
 *.Zone.Identifier
 *_ZOne.Identifier
+*_Zone.Identifier
 
 # macOS
 .DS_Store
